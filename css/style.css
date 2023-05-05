@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+body {
+  background-color: #f7e9dc;
+}
+.container {
+  width: 35%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+header {
+  width: 100%;
+  height: 10%;
+  background-color: #ec755d;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 20px;
+  color: #fff;
+}
+.dinheiro {
+  font-size: 30px;
+}
+main {
+  width: 100%;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 20px;
+}
+.spending {
+  font-size: 20px;
+  font-weight: bold;
+}
+.graficos {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  border-bottom: 1.7px solid #f3ece2;
+}
+.day {
+  width: 10%;
+  height: 275px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.day p {
+  font-size: 10px;
+}
+.valor{
+  background-color: #000;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  display: none;
+}
+.valor p{
+  color: #FFF;
+  font-weight: bold;
+  font-size: 12px;
+}
+.grafico {
+  background-color: #ec755d;
+  border-radius: 5px;
+}
+.info {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: hsl(28, 10%, 53%);
+  font-size: 12px;
+}
+.number {
+  color: #000;
+  font-weight: bold;
+  font-size: 25px;
+}
+.porcent {
+  color: #000;
+}
+footer p {
+  font-size: 11px;
+  text-align: center;
+}
+.name {
+  color: hsl(228, 45%, 44%);
+  text-decoration: underline;
+}
+@media (max-width: 1000px) {
+  .container {
+    width: 50vw;
+  }
+}
+@media (max-width: 650px) {
+  .container {
+    width: 80vw;
+  }
+}
